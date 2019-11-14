@@ -1,5 +1,5 @@
 // ask user KM
-var distance = prompt('How many KM will you travel?');
+var distance = prompt('How many km will you travel?');
 console.log(distance);
 
 
@@ -7,21 +7,19 @@ console.log(distance);
 var age = prompt('How old are you?');
 console.log(age);
 
-//minorenni
+var price = distance * 0.21; //normal price
+var kids = price - (price * (20 / 100)); // kid price
+var old = price - (price * (40 / 100)); // old people price
 
-if(age > 18){
-    console.log('distance * 0,21 -20%');
+
+
+//everyone
+if (age >= 18 && age <= 65) {
+    console.log (price);
+
+} else if (age <18){
+    console.log (kids);
 
 } else {
-    console.log('distance * 0,21');
+    console.log(old);
 }
-
-//over 65 
-
-if(age < 65){
-    console.log('distance * 0,21 - 40%');
-
-
-}
-
-// kids
