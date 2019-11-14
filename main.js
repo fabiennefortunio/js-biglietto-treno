@@ -13,13 +13,13 @@ var old = price - (price * (40 / 100)); // old people price
 
 
 
-//everyone
-if (age >= 18 && age <= 65) {
+
+if (age >= 18 && age <= 65) { //everyone
     console.log (price);
 
-} else if (age <18){
+} else if (age <18){          //kids discount
     console.log (kids);
 
 } else {
-    console.log(old);
+    console.log(old);         //old p. discount
 }
