@@ -1,4 +1,5 @@
-# js-biglietto-treno
+Javascript exercise 
+November 14th
 
 Iniziamo con i primi ragionamenti logici e calcoliamo il prezzo del biglietto del treno basato sulla distanza da percorrere in km. Il prezzo al km è di 0,21 €/km.
 Attraverso la funzione prompt chiedere all'utente quanti km deve percorrere e la sua età.
