@@ -6,6 +6,11 @@
 
 
 body {
-    background-color: negro;
+    background-color: black;
     color:grey;
+}
+
+.container {
+    display: none;
+    
 }

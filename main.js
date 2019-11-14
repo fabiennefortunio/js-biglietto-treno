@@ -1,7 +1,22 @@
 // ask user KM
-var totalprice = prompt('How many KM will you do?');
-console.log(totalprice);
+var distance = prompt('How many KM will you do?');
+console.log(distance);
+
 
 // ask user age
-var askkm = prompt('How old are you?');
-console.log(askkm);
+var age = prompt('How old are you?');
+console.log(age);
+
+if(age > 18){
+    console.log('you get 20% of discount');
+    var kids = distance * 0,21 - 20%;
+
+}
+
+if(age < 65){
+    console.log('you get 40% discount');
+    var adults = distance * 0,21 - 40%;
+
+}
+
+// kids
